@@ -4,6 +4,7 @@ import Inspect from "vite-plugin-inspect";
 import OpenIde from "vite-inspector";
 
 export default defineConfig({
+  base: "/counter-redux",
   plugins: [
     OpenIde({
       framework: "react",
